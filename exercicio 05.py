@@ -5,7 +5,10 @@ media = (nota1 + nota2 + nota3) /3
 
 if media >=7:
     print ("aprovado")
-else:
+if media <=4:
     print ("reprovado")
+else:
+    print ("recuperacao")
+
 
 
